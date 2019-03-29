@@ -8,10 +8,10 @@ from p2pool.util import pack
 
 
 P2P_PREFIX = 'bf0c6bbd'.decode('hex')
-P2P_PORT = 9999
-ADDRESS_VERSION = 76
-SCRIPT_ADDRESS_VERSION = 16
-RPC_PORT = 9998
+P2P_PORT = 9998
+ADDRESS_VERSION = 78
+SCRIPT_ADDRESS_VERSION = 18
+RPC_PORT = 9997
 RPC_CHECK = defer.inlineCallbacks(lambda yrmixd: defer.returnValue(
             'yrmix' in (yield yrmixd.rpc_help()) and
             (yield yrmixd.rpc_getblockchaininfo())['chain'] == 'main'

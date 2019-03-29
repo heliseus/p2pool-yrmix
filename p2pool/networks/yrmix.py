@@ -9,11 +9,11 @@ SPREAD = 10 # blocks
 IDENTIFIER = '7242ef345e1bed6b'.decode('hex')
 PREFIX = '3b3e1286f446b891'.decode('hex')
 COINBASEEXT = '0D2F5032506F6F6C2D444153482F'.decode('hex')
-P2P_PORT = 8999
+P2P_PORT = 8998
 MIN_TARGET = 0
 MAX_TARGET = 2**256//2**20 - 1
 PERSIST = True
-WORKER_PORT = 7903
+WORKER_PORT = 7902
 BOOTSTRAP_ADDRS = 'yrmix01.p2poolmining.us p2pool.2sar.ru yrmix02.p2poolmining.us p2pool.yrmix.siampm.com yrmix03.p2poolmining.us crypto.office-on-the.net yrmix04.p2poolmining.us'.split(' ')
 ANNOUNCE_CHANNEL = '#p2pool-yrmix'
 VERSION_CHECK = lambda v: v >= 120100
