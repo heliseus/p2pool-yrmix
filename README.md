@@ -19,14 +19,14 @@ Download the required submodules:
     git submodule init
     git submodule update
 
-dash_hash:
+yrmix_hash:
 
-    cd dash_hash
+    cd yrmix_hash
     python setup.py install --user
 
 Running P2Pool:
 -------------------------
-To use P2Pool, you must be running your own local dashd. For standard
+To use P2Pool, you must be running your own local yrmixd. For standard
 configurations, using P2Pool should be as simple as:
 
     python run_p2pool.py
